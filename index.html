@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rijksmuseum API App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 id="page-title">Art with <span>Monkeys</span></h1>
+      <form action="">
+      	<label for="animal">Choose your animal:</label>
+				<select name="animal" id="animal">
+					<option value="Donkey">Donkeys</option>
+					<option value="Monkey">Monkeys</option>
+					<option value="Eagle">Eagles</option>
+					<option value="Dragon">Dragons</option>
+					<option value="Elephant">Elephants</option>
+					<option value="Centaur">Centaur</option>
+				</select>
+      </form>
+    </div>
+  </header>
+  <main>
+    <div class="container" id="artwork"></div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
